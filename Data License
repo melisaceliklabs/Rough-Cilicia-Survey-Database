@@ -1,0 +1,30 @@
+# Data License
+
+The archaeological **data** in this repository (the contents of the `finds`,
+`sites`, `subjects`, `projects`, and related tables) is **not** covered by the
+MIT license that applies to the code, schema, functions, and documentation.
+
+## License
+
+The data is licensed under the
+**Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
+
+Full legal text: https://creativecommons.org/licenses/by/4.0/legalcode
+Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+
+## Source & Attribution
+
+> Rauh, Nicholas K. (2012). *Rough Cilicia Archaeological Survey Project.*
+> Open Context. [ADD PERSISTENT URL / DOI]. Licensed under CC BY 4.0.
+
+If you reuse this data, CC BY 4.0 requires that you: give appropriate credit
+to the original creator (as above), provide a link to the license, and
+indicate if changes were made.
+
+## Changes made
+
+This dataset has been **restructured** from its original Open Context form:
+records were modeled into a relational PostgreSQL / PostGIS schema, point
+geometry was generated in EPSG:4326, and a denormalized analysis layer
+(`public.finds`, `public.sites`) was derived from the source records. No
+underlying archaeological observations were altered.

@@ -1,0 +1,47 @@
+# ── Secrets & DB credentials — NEVER commit these ─────────────
+# The most important lines in this file: keep passwords out of a public repo.
+.env
+*.env
+.pgpass
+*.pgpass
+secrets.*
+config.local.*
+
+# ── Python (pandas / matplotlib work, notebooks) ──────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ── QGIS project cruft ────────────────────────────────────────
+# Keep your .qgz project file; ignore the auto-generated backups.
+*~
+*.qgd
+.qgis/
+
+# ── GDAL / GIS auxiliary files (regenerable) ──────────────────
+*.gpkg-shm
+*.gpkg-wal
+*.aux.xml
+
+# ── OS files ──────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.directory
+
+# ── Editor / IDE ──────────────────────────────────────────────
+.vscode/
+.idea/
+
+# ── Large raw geodata (OPTIONAL) ──────────────────────────────
+# Your published data IS the SQL dump, which you DO want committed.
+# If you have heavy raw source files you'd rather not version, uncomment:
+# *.tif
+# *.tiff
+# *.gpkg
+# *.shp
+# *.dbf
+# *.shx
+# *.prj

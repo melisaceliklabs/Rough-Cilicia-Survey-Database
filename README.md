@@ -104,7 +104,7 @@ This repository ships the database as a plain-SQL `pg_dump`.
 createdb cilicia_db
 
 # 2. Restore schema + data
-psql -d cilicia_db -f rough-cilicia-summer.sql
+psql -d cilicia_db -f rough-cilicia-latest.sql
 ```
 
 That single file recreates both schemas, all tables, indexes, views, functions, and data.

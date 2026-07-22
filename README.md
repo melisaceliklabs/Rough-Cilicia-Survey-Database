@@ -147,7 +147,7 @@ More examples live in [`queries/examples.sql`](queries/examples.sql).
 ---
 
 ## Map 
-![QGIS visualization of Rough Cilicia survey finds](qgis_map.png)
+![QGIS visualization of Rough Cilicia survey finds](qgis-cilicia.png)
 *Rough Cilicia survey finds over an OpenTopoMap basemap, with categorized symbology by tomb type.*
 ---
 

@@ -31,10 +31,11 @@ All geometry is stored in **EPSG:4326 (WGS 84)** for portability and alignment w
 
 The underlying archaeological data comes from:
 
-> Rauh, Nicholas K. (2012). *Rough Cilicia Archaeological Survey Project.* Open Context. `<https://opencontext.org/projects/295b5bf4-0f44-4698-80cd-7a39cb6f133d> DOI: https://doi.org/10.6078/M7X0656S ARK (Archive): https://n2t.net/ark:/28722/k2bk1cx70` — Released under **CC BY 4.0**.
-
-- **Data** (all records): **CC BY 4.0** — attribution required. See [`DATA_LICENSE.md`](DATA_LICENSE.md).
-- **Code, schema, functions, views** (this repository): **MIT** — see [`LICENSE`](LICENSE).
+> Rauh, Nicholas K. (2012). *Rough Cilicia Archaeological Survey Project.* Open Context. <br>
+> https://opencontext.org/projects/295b5bf4-0f44-4698-80cd-7a39cb6f133d <br>
+> DOI: https://doi.org/10.6078/M7X0656S <br>
+> ARK: https://n2t.net/ark:/28722/k2bk1cx70 <br>
+> Released under **CC BY 4.0**.
 
 ---
 
@@ -145,12 +146,9 @@ More examples live in [`queries/examples.sql`](queries/examples.sql).
 
 ---
 
-## Map
-
-![QGIS visualization of Rough Cilicia survey finds](docs/qgis_map.png)
-
-*Rough Cilicia survey finds over an OpenStreetMap basemap, with categorized symbology `[and buffer zones]`.*
-
+## Map 
+![QGIS visualization of Rough Cilicia survey finds](qgis_map.png)
+*Rough Cilicia survey finds over an OpenTopoMap basemap, with categorized symbology by tomb type.*
 ---
 
 ## Author
